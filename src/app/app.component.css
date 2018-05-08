@@ -1,0 +1,80 @@
+body
+	    {
+		    background-color: white;
+		    font-family: verdana;
+		    overflow: hidden;
+	    }
+	    input[type="button"], input[type="submit"] 
+	    { 
+		    color:#050; 
+		    font: bold 84% 'trebuchet ms',helvetica,sans-serif; 
+		    background-color:#fed; 
+		    border:1px solid; 
+		    border-color: #696 #363 #363 #696;
+		    height: 20px;
+		    width: 60px;
+		}
+		#result
+	    {
+	       height: 200px;
+	       border: 1px solid #ccc;
+	       padding: 10px;
+	       box-shadow: 0 0 10px 0 #bbb;
+	       margin-bottom: 30px;
+	       font-size: 14px;
+	       line-height: 25px;
+	    }
+	    .result
+	    {
+	       font-size: 15px;
+	       position: absolute;
+	       top: 443px;
+	       left: 525px;
+	      
+	    }
+	    .result1
+	    {
+	    	color:#050; 
+		    font: bold 84% 'trebuchet ms',helvetica,sans-serif; 
+		    background-color:#fed; 
+		    border:1px solid; 
+		    border-color: #696 #363 #363 #696;
+		    height: 20px;
+		    width: 60px;
+	       font-size: 15px;
+	       position: absolute;
+	       top: 450px;
+	       left: 540px;
+	      
+	    }
+	    .play
+	    {
+	       position: absolute;
+	       top: 443px;
+	       left: 640px;
+	    }
+	    .stop
+	    {
+	       position: absolute;
+	       top: 443px;
+	       left: 772px;
+	    }
+	    button
+	    {
+		   font-size: 20px;
+		   position: absolute;
+	       top: 240px;
+	       left: 50%;
+	    }
+	    #one
+	    {
+	       resize: none;
+	       position: absolute;
+	       top: 45px;
+	       left: 10px;
+	    }
+	    #hello
+	    {
+	       top: 368px;
+	       left: 330px;
+	    }

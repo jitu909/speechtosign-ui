@@ -1,0 +1,10 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+var module_1 = require("./module");
+exports.SpeechModule = module_1.SpeechModule;
+var speech_service_1 = require("./speech.service");
+exports.SpeechService = speech_service_1.SpeechService;
+var speech_action_directive_1 = require("./speech-action.directive");
+exports.SpeechActionDirective = speech_action_directive_1.SpeechActionDirective;
+var speech_context_directive_1 = require("./speech-context.directive");
+exports.SpeechContextDirective = speech_context_directive_1.SpeechContextDirective;

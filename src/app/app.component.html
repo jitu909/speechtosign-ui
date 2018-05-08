@@ -1,0 +1,21 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<div style="text-align:center">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">  
+  <h3>
+    {{ title }}!
+  </h3>
+<input type="button" class="play" value="Play" name="click"  onclick="var myvar = setInterval(play_anim, 4000);" />&nbsp;&nbsp;&nbsp;&nbsp;<input type="button" value="Stop" class="stop" onclick='CWASA.stopSiGML();'/><br><br>
+<!-- <form class="container"
+      #speechText = ngForm
+      (ngSubmit)="onSubmit(speechText.value)"
+> -->
+<textarea autofocus="autofocus" class="relative" id="one" name="ash" cols="50" rows="21" #speechData [(ngModel)]="clearData"></textarea>
+<input type="submit" value="Convert" class="result" (click)='clearSearch()' (click) = 'getData(speechData.value)'>
+<p>
+  I heard {{ voiceData }}
+</p>
+
+<!-- <button class="result1" (click)='clearSearch()'>Clear</button> -->
+<!-- </form> -->
+<button id="hello"(click)='writeToFile()'><i class="fa fa-microphone"></i></button>
+<!--  (click)='startConverting()'  -->
